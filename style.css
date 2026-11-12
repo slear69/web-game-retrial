@@ -2,6 +2,7 @@
 {
     --paper:#e8dcc0;
     --paper-dark:#d6c7a2;
+    --item:#eddfb9;
     --floor:#e2d5b6;
     --grid:#cbbb94;
     --ink: #1c1812;
@@ -93,6 +94,18 @@ body
     font-style: italic; 
     color: var(--ink-soft);
 }
+.rectangle {
+    overflow: visible;
+    padding: 6px;
+    width: 95%;
+    height: 100px;
+    background-color: var(--floor);
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    position: absolute;
+}
 
 .stats
 {
@@ -148,6 +161,7 @@ body
     touch-action: none;
     border:3px double var(--ink);background: var(--floor);
     filter: sepia(.15) contrast(1.02);
+    background-image: repeating-linear-gradient(45deg, var(--grid) 0 1px, transparent 1px 8px);
 }
 .bar
 {

@@ -28,21 +28,43 @@
             <p class = "deck" id="hint">Sixty-second trials continue in the Testing Yard. Each finished edition is reprinted as a clone, and the reader may work beside it.</p>
         </section>
         <section class="stats" aria-label="Trial figures">
-            <div class="stat"><b id="time">60.0</b><i>Time left:</i></div>
-            <div class="stat"><b id="round">1</b><i>Workers</i></div>
+            <div class="stat"><b id="timer">60.0</b><i>Time left:</i></div>
+            <div class="stat"><b id="lives">5</b><i>Lives left</i></div>
             <div class="stat"><b id="ghosts">0</b><i>Clones active</i></div>
-            <div class="stat"><b id="money">0$</b><i>purse</i></div>
+            <div class="stat"><b id="money">0.00$</b><i>purse</i></div>
         </section>
         <figure class="stage">
             <canvas id="c" width="800" height="480" aria-label="The Testing Yard"></canvas>
             <div class="bar"><div id="bar"></div></div>
             <figcaption>Fig. 1 &mdash; The Testing Yard. The reader appears in red ink; former editions of the reader appear in blue.</figcaption>
+            
             <div class ="shop" id="shop" hidden>
                 <h3>The Classifileds</h3>
-                <p class="shop-money">Purse: <b id="shopMoney">$0</b></p>
+                <p class="shop-money">Purse: <b id="shopMoney">$0.00</b></p>
                 <ul id="shopList"></ul>
                 <button class="btn primary" id="shopDone">Next Level</button>
+                <div class = "rectangle" id = "shopitem1"style="position: absolute; left: 15px; top: 155px;">
+                    <div id="itemname1" style="font-size: 40px;">name</div>
+                    <div id="itemprice1" style="font-size: 40px; position:absolute; left:500px;top:5px;"> price</div>
+                    <div class="item-desc" id="itemdesc1">description</div>
+                </div>
+                <div class = "rectangle" id = "shopitem2" style="position: absolute; left: 15px; top: 265px;">
+                    <div id="itemname2" style="font-size: 40px;">name</div>
+                    <div id="itemprice2" style="font-size: 40px; position:absolute; left:500px;top:5px;"> price</div>
+                    <div class="item-desc" id="itemdesc2">description</div>
+                </div>
+                <div class = "rectangle" id = "shopitem3" style="position: absolute; left: 15px; top: 375px;">
+                    <div id="itemname3" style="font-size: 40px;">name</div>
+                    <div id="itemprice3" style="font-size: 40px; position:absolute; left:500px;top:5px;"> price</div>
+                    <div class="item-desc" id="itemdesc3">description</div>
+                </div>
+                <div class = "rectangle" id = "shopitem4" style="position: absolute; left: 15px; top: 485px;">
+                    <div id="itemname4" style="font-size: 40px;">name</div>
+                    <div id="itemprice4" style="font-size: 40px; position:absolute; left:500px;top:5px;"> price</div>
+                    <div class="item-desc" id="itemdesc4">description</div>
+                </div>
             </div>
+
         </figure>
         <section class="under">
             <div>
@@ -64,6 +86,7 @@
                 <button class="btn" id="resetBtn">Recall All</button>
             </div>
         </section>
+        
     </main>
 <script src="game.js"></script>
 </body>
