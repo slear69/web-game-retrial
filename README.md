@@ -1,4 +1,3 @@
-# web-game-retrial
 # Time Arcive
 
 A browser-based action game built with plain HTML, CSS, and JavaScript. The player moves through timed levels, collects money, buys upgrades, and uses a clone mechanic to solve puzzles and survive enemy encounters.
