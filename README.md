@@ -18,10 +18,12 @@ The project uses a canvas-based scene and a newspaper-inspired UI aesthetic for 
 - Shop system with power-up purchases
 - Optional shooting with a gun item
 - Speed, armor, and challenge upgrades
+<img width="713" height="895" alt="image" src="https://github.com/user-attachments/assets/fdf72e7d-dde7-4792-bdc4-f195e5e8b235" />
 
 ## How to Play
 
 ### Controls
+<img width="742" height="167" alt="image" src="https://github.com/user-attachments/assets/ff6e03b5-611d-4a5d-a2c7-60f11ac3c4e7" />
 
 - Move: WASD or Arrow Keys
 - Clone / save current run: E
